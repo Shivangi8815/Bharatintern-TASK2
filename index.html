@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <!-- <a href="#">Skill</a> -->
+            <!-- <a href="#">Portfolio</a> -->
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Shivangi Jaiswal</h1>
+            <h3>And I'm a Third Year B.Tech Biotech student,</h3>
+            <p>With skills in Python, Java and Web Development</p>
+            <br>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/shivangi-jaiswal-048213276"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Shivangi8815"><i class='bx bxl-github' ></i></a>
+                <!-- <a href="https://www.hackerrank.com/shikhajaiswal011?hr_r=1"><i class='fab fa-hackerrank' ></i></a> -->
+                
+              </div>
+              <!-- <a href="https://drive.google.com/file/d/1FLuDP-pxkZMwU4VbvWygcbeP0RzVpbKo/view?usp=drive_link" class="btn-box" >More About Me</a> -->
+          </div>
+       
+          <div class="pic"><img src="img.jpg" style="border: white solid;"></div></section>
+          
+    
+
+
+    <!-- about  -->
+<section class="about">
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img.jpg" style="border:white solid;" alt="">
+                <!-- <img src="#" alt=""> -->
+            </div>
+            <div class="about-col-2">
+                <h2>About<span>Me</span></h2>
+                <p>Biotech student with many skills. Interested in
+                    front-end technologies , knowledgeable with JS, CSS, HTML and Python.
+      
+                    I am a Practical knowledge seeker. To work in an environment where my skills and knowledge reflects the
+                    growth of the company and enhance my knowledge as well as experience.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>  
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Development</span><br>Python and Java</li>
+                        <li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>July 2023 - August 2023</span><br>Web Development Intern at Bharat Intern</li>
+                        
+                    </ul>
+                </div> 
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span><br>B.Tech - Noida Institute of Engineering and Technology<br>79.65%</li>
+                        
+                        
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!-- -------------CONTACT---------------- -->
+
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span>Me</span></h2>
+        <h4>Let's work Together</h4>
+        <p>Thank you for visiting my portfolio! I'm thrilled to have you here.<br>
+
+            If you have any questions, comments, or collaboration inquiries, I'd love to hear from you. 
+            Whether it's about a potential project, a partnership opportunity, or 
+            just to say hello, feel free to get in touch using the form below or through my contact information provided.<br>
+            
+            Your feedback and thoughts are essential to me, and I promise to get back to you as soon as possible.<br>
+            
+            Looking forward to connecting with you and exploring how we can work together to bring your ideas to life!<br>
+            
+            Best regards,<br>
+            Shivangi Jaiswal</p>
+            <div class="contact-list">
+                <li><a  href="mailto:shikhajaiswal0105@gmail.com"><i class='bx bxs-send'></i>shivangijaz8815@gmail.com</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/shivangi-jaiswal-048213276"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Shivangi8815"><i class='bx bxl-github' ></i></a>
+                <!-- <a href="https://www.hackerrank.com/shikhajaiswal011?hr_r=1"><i class='fab fa-hackerrank' ></i></a> -->
+            </div>
+    </div>
+    <div class="contact-form">
+        <form name="submit-to-google-sheet">
+            <input type="" name="Name"placeholder="Enter Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Your Email" required>
+
+            <input type="" name="Subject" placeholder="Enter Your Subject">
+            <textarea name="Message" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+            <input type="submit" value="submit" class="send">
+        </form>
+        <span id="msg" ></span>
+    </div>
+</section>
+
+<!-- -------------UP Arrow------------------- -->
+<div class="last-text">
+    <p>Developed by Shivangi Jaiswal </p>
+    <a href="#" class="top"><i class ='bx bx-up-arrow-alt'></i></a>
+</div>
+<script>
+// for form
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwOALrKsS3_Xl5XNwrQSi-a8HpzQf6y-OROFxxlxR1FXr4z75alarDTtxhA4MPfMPlUpQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+</body>
+</html>
